@@ -1,0 +1,76 @@
+.services{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.dashboard-main {
+  height: 50vh;
+}
+.dashboard-options {
+  margin-top: 6rem;
+  height: 30vh;
+}
+
+.services {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.titleServices{
+    padding-top: 3%;
+    padding-bottom: 1%;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
+
+.detailsUsers {
+  height: 80vh;
+  box-shadow: inset 0 0 0 1000px rgb(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.hola{
+    margin: 0.5rem 0;
+    padding: 30px;
+    width: 300px;
+    border: 2px solid whitesmoke;
+    text-transform: uppercase;
+    border-radius: 15px;
+    border-color: #3caae9;
+    background-color: transparent;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: inherit;
+}
+
+.dashbb{
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+  .dashbb {
+      flex-direction: column;
+      text-align: center;
+  }
+  .dashboard-main {
+      height: 73vh;
+  }
+
+}
+
+.hola:hover{
+  background-color: rgb(196, 196, 196);
+  border-color: rgb(196, 196, 196);
+  transition: all 0.3s ease-out;
+}
